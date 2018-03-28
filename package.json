@@ -1,0 +1,27 @@
+{
+  "name": "easy-promise-all",
+  "version": "1.0.0",
+  "description": "Easy implementation of promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tushar Sheth <tushar.sheth13@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharSheth/easy-promise-all.git"
+  },
+  "keywords": [
+    "promise",
+    "all",
+    "object"
+  ],
+  "bugs": {
+    "url": "https://github.com/TusharSheth/easy-promise-all/issues"
+  },
+  "homepage": "https://github.com/TusharSheth/easy-promise-all#readme"
+}
