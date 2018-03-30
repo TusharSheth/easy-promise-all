@@ -1,5 +1,5 @@
 module.exports = {
-  EasyPromise: (promisesObj) => {
+  EasyPromiseAll: (promisesObj) => {
     return new Promise((resolve, reject) => {
       try {
         const promiseList = [];
