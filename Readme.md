@@ -10,11 +10,11 @@ This is a easy implementation of object Promises. With **easy-promise-all** we c
 ```
 var { EasyPromiseAll } = require('easy-promise-all');
 
-EasyPromise({
-      resultFromPromise1: newPromise1(),
-      resultFromPromise2: newPromise2(),
-    }).then((results) => {
-      const result1 = results.resultFromPromise1;
-      const result2 = results.resultFromPromise2;
-    });
+EasyPromiseAll({
+    resultFromPromise1: newPromise1(),
+    resultFromPromise2: newPromise2(),
+  }).then((results) => {
+    const { resultFromPromise1, resultFromPromise2 } = results;
+    console.log(resultFromPromise1, resultFromPromise2);
+  });
 ```
