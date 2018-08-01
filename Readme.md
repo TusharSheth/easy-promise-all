@@ -18,3 +18,6 @@ EasyPromiseAll({
     console.log(resultFromPromise1, resultFromPromise2);
   });
 ```
+
+**More info**
+https://www.npmjs.com/package/easy-promise-all
