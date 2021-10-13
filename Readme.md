@@ -1,5 +1,5 @@
 # easy-promise-all
-This is a easy implementation of object Promises. With **easy-promise-all** we can use key-value pair to get result returned by Promise.all().
+This is a plain implementation of object Promises. With **easy-promise-all** you can use key-value pair to get result returned by Promise.all().
 **easy-promise-all** uses vanilla java script.
 
 **Installation**
